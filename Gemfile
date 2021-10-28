@@ -30,9 +30,6 @@ gem 'redis-rails'
 gem 'resque'
 gem 'resque-multi-job-forks'
 
-# for graphing devices
-gem 'rgl'
-
 # for tracking jobs
 gem 'activejob-status'
 
@@ -120,3 +117,6 @@ gem 'progress_bar'
 
 gem 'parallel'
 gem 'ruby-progressbar'
+
+gem "recaptcha"
+
